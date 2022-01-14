@@ -15,8 +15,10 @@ $y=3;
 $z=$x*$y;
 echo $x. "x" .$y." = ".$z."<br/>";
 $z=$x%$y;
-echo $x."módulo".$y." = ".$z."<br/>"
+echo $x."módulo".$y." = ".$z."<br/>";
 //Operadores de asignación * /
+$z-=$y;
+echo "\$z-=\$y asigna a \$Z ".$z."<br>";
 ?>
 </body>
 </html>
