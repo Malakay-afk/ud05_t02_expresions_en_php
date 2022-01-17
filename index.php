@@ -19,16 +19,22 @@ echo $x."módulo".$y." = ".$z."<br/>";
 //Operadores de asignación * /
 $z-=$y;
 echo "\$z-=\$y asigna a \$Z ".$z."<br>";
-?>
-//Operadores de incremento/diminución
+//Operadores de incremento/diminución 
 ++$z;
 echo "++\$z asigna a \$z ".$z."<br>";
 $z--;
 echo "\$z-- asigna a \$z ".$z."<br>";
 //operadores de comparación
-$z=$y>$x;
+$z=$y!=$x;
 echo "\$x!=\$y devolve ".$z."<br/>";
 $z=$y>$x;
 echo "\$y>\$x devolve ".$z. "<br/>";
+// Operadores lóxicos
+$z=($x==10 and $y==3);
+echo "(\$x==10 and \$y==3) devolve ".$z."<br/>";
+$z=($x==10 or $y==5);
+echo "(\$x==10 or  \$y==5) devolve ".$z."<br/>";
+?>
+
 </body>
 </html>
