@@ -20,5 +20,10 @@ echo $x."módulo".$y." = ".$z."<br/>";
 $z-=$y;
 echo "\$z-=\$y asigna a \$Z ".$z."<br>";
 ?>
+//Operadores de incremento/diminución
+++$z;
+echo "++\$z asigna a \$z ".$z."<br>";
+$z--;
+echo "\$z-- asigna a \$z ".$z."<br>";
 </body>
 </html>
