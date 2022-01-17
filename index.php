@@ -25,5 +25,10 @@ echo "\$z-=\$y asigna a \$Z ".$z."<br>";
 echo "++\$z asigna a \$z ".$z."<br>";
 $z--;
 echo "\$z-- asigna a \$z ".$z."<br>";
+//operadores de comparación
+$z=$y>$x;
+echo "\$x!=\$y devolve ".$z."<br/>";
+$z=$y>$x;
+echo "\$y>\$x devolve ".$z. "<br/>";
 </body>
 </html>
